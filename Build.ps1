@@ -26,7 +26,6 @@ $ErrorActionPreference = "Stop"
 $solution = "Buddy.AspNetCore.sln"         #relative to $srcRoot
 
 [string[]] $projects =          #relative to $srcRoot
-  "Buddy.AspNetCore45\Buddy.AspNetCore45.csproj", 
   "Buddy.AspNetCore451\Buddy.AspNetCore451.csproj",  
   "Buddy.AspNetCore452\Buddy.AspNetCore452.csproj",  
   "Buddy.AspNetCore46\Buddy.AspNetCore46.csproj",  

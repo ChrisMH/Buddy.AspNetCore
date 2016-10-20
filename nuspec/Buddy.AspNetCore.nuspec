@@ -21,8 +21,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\Buddy.AspNetCore45\bin\Release\Buddy.AspNetCore.dll" target="lib\net45" />
-        <file src="..\Buddy.AspNetCore45\bin\Release\Buddy.AspNetCore.pdb" target="lib\net45" />
         <file src="..\Buddy.AspNetCore451\bin\Release\Buddy.AspNetCore.dll" target="lib\net451" />
         <file src="..\Buddy.AspNetCore451\bin\Release\Buddy.AspNetCore.pdb" target="lib\net451" />
         <file src="..\Buddy.AspNetCore452\bin\Release\Buddy.AspNetCore.dll" target="lib\net452" />

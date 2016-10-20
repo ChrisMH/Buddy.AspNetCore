@@ -1,5 +1,4 @@
-﻿using System.Xml;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
 namespace Buddy.AspNetCore.Serialization
