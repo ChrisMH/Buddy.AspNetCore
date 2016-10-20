@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<package>
+    <metadata>
+        <id>Buddy.AspNetCore</id>
+        <version>$version$</version>
+        <title>Buddy.AspNetCore</title>
+        <authors>Chris Hogan</authors>
+        <owners>Chris Hogan</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <projectUrl>https://github.com/ChrisMH/Buddy.AspNetCore</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>AspNetCore utility classes</description>
+        <copyright>Copyright 2011</copyright>
+        <tags>buddy</tags>
+        <dependencies>
+            <dependency id="Buddy" version="1.6.2" />
+            <dependency id="Newtonsoft.Json" version="9.0" />
+            <dependency id="Microsoft.AspNetCore.Http" version="1.0.0"/>
+            <dependency id="Microsoft.AspNetCore.Mvc" version="1.0.0"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Buddy.AspNetCore45\bin\Release\Buddy.AspNetCore.dll" target="lib\net45" />
+        <file src="..\Buddy.AspNetCore45\bin\Release\Buddy.AspNetCore.pdb" target="lib\net45" />
+        <file src="..\Buddy.AspNetCore451\bin\Release\Buddy.AspNetCore.dll" target="lib\net451" />
+        <file src="..\Buddy.AspNetCore451\bin\Release\Buddy.AspNetCore.pdb" target="lib\net451" />
+        <file src="..\Buddy.AspNetCore452\bin\Release\Buddy.AspNetCore.dll" target="lib\net452" />
+        <file src="..\Buddy.AspNetCore452\bin\Release\Buddy.AspNetCore.pdb" target="lib\net452" />
+        <file src="..\Buddy.AspNetCore46\bin\Release\Buddy.AspNetCore.dll" target="lib\net46" />
+        <file src="..\Buddy.AspNetCore46\bin\Release\Buddy.AspNetCore.pdb" target="lib\net46" />
+        <file src="..\Buddy.AspNetCore461\bin\Release\Buddy.AspNetCore.dll" target="lib\net461" />
+        <file src="..\Buddy.AspNetCore461\bin\Release\Buddy.AspNetCore.pdb" target="lib\net461" />
+    </files>
+</package>

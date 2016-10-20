@@ -1,0 +1,128 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{682AAC1F-0854-4771-AA14-1ACE8E890729}"
+	ProjectSection(SolutionItems) = preProject
+		nuspec\Buddy.AspNetCore.nuspec = nuspec\Buddy.AspNetCore.nuspec
+		BuildAndPublish.ps1 = BuildAndPublish.ps1
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.AspNetCore46", "Buddy.AspNetCore46\Buddy.AspNetCore46.csproj", "{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.AspNetCore451", "Buddy.AspNetCore451\Buddy.AspNetCore451.csproj", "{593D7069-99B8-427A-8904-67DDD9B51847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.AspNetCore452", "Buddy.AspNetCore452\Buddy.AspNetCore452.csproj", "{54A891FD-219F-4DBA-8B22-B4DACCDAF339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buddy.AspNetCore461", "Buddy.AspNetCore461\Buddy.AspNetCore461.csproj", "{E0393636-6988-4862-A3E7-B30423D64864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ClientDebug|Any CPU = ClientDebug|Any CPU
+		ClientRelease|Any CPU = ClientRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DebugSL5|Any CPU = DebugSL5|Any CPU
+		LogikosDebug|Any CPU = LogikosDebug|Any CPU
+		LogikosRelease|Any CPU = LogikosRelease|Any CPU
+		ProtechsDebug|Any CPU = ProtechsDebug|Any CPU
+		ProtechsRelease|Any CPU = ProtechsRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+		WaterOutDebug|Any CPU = WaterOutDebug|Any CPU
+		WaterOutRelease|Any CPU = WaterOutRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientRelease|Any CPU.ActiveCfg = ClientRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ClientRelease|Any CPU.Build.0 = ClientRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.DebugSL5|Any CPU.ActiveCfg = DebugSL5|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.DebugSL5|Any CPU.Build.0 = DebugSL5|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.LogikosDebug|Any CPU.ActiveCfg = LogikosDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.LogikosDebug|Any CPU.Build.0 = LogikosDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.LogikosRelease|Any CPU.ActiveCfg = LogikosRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.LogikosRelease|Any CPU.Build.0 = LogikosRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ProtechsDebug|Any CPU.ActiveCfg = ProtechsDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ProtechsDebug|Any CPU.Build.0 = ProtechsDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ProtechsRelease|Any CPU.ActiveCfg = ProtechsRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.ProtechsRelease|Any CPU.Build.0 = ProtechsRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.WaterOutDebug|Any CPU.ActiveCfg = WaterOutDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.WaterOutDebug|Any CPU.Build.0 = WaterOutDebug|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.WaterOutRelease|Any CPU.ActiveCfg = WaterOutRelease|Any CPU
+		{ADB79F16-7CD5-4208-9F8F-690C4D0002D8}.WaterOutRelease|Any CPU.Build.0 = WaterOutRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ClientRelease|Any CPU.ActiveCfg = ClientRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ClientRelease|Any CPU.Build.0 = ClientRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.DebugSL5|Any CPU.ActiveCfg = DebugSL5|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.DebugSL5|Any CPU.Build.0 = DebugSL5|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.LogikosDebug|Any CPU.ActiveCfg = LogikosDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.LogikosDebug|Any CPU.Build.0 = LogikosDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.LogikosRelease|Any CPU.ActiveCfg = LogikosRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.LogikosRelease|Any CPU.Build.0 = LogikosRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ProtechsDebug|Any CPU.ActiveCfg = ProtechsDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ProtechsDebug|Any CPU.Build.0 = ProtechsDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ProtechsRelease|Any CPU.ActiveCfg = ProtechsRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.ProtechsRelease|Any CPU.Build.0 = ProtechsRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.WaterOutDebug|Any CPU.ActiveCfg = WaterOutDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.WaterOutDebug|Any CPU.Build.0 = WaterOutDebug|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.WaterOutRelease|Any CPU.ActiveCfg = WaterOutRelease|Any CPU
+		{593D7069-99B8-427A-8904-67DDD9B51847}.WaterOutRelease|Any CPU.Build.0 = WaterOutRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ClientRelease|Any CPU.ActiveCfg = ClientRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ClientRelease|Any CPU.Build.0 = ClientRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.DebugSL5|Any CPU.ActiveCfg = DebugSL5|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.DebugSL5|Any CPU.Build.0 = DebugSL5|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.LogikosDebug|Any CPU.ActiveCfg = LogikosDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.LogikosDebug|Any CPU.Build.0 = LogikosDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.LogikosRelease|Any CPU.ActiveCfg = LogikosRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.LogikosRelease|Any CPU.Build.0 = LogikosRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ProtechsDebug|Any CPU.ActiveCfg = ProtechsDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ProtechsDebug|Any CPU.Build.0 = ProtechsDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ProtechsRelease|Any CPU.ActiveCfg = ProtechsRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.ProtechsRelease|Any CPU.Build.0 = ProtechsRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.WaterOutDebug|Any CPU.ActiveCfg = WaterOutDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.WaterOutDebug|Any CPU.Build.0 = WaterOutDebug|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.WaterOutRelease|Any CPU.ActiveCfg = WaterOutRelease|Any CPU
+		{54A891FD-219F-4DBA-8B22-B4DACCDAF339}.WaterOutRelease|Any CPU.Build.0 = WaterOutRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ClientRelease|Any CPU.ActiveCfg = ClientRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ClientRelease|Any CPU.Build.0 = ClientRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.DebugSL5|Any CPU.ActiveCfg = DebugSL5|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.DebugSL5|Any CPU.Build.0 = DebugSL5|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.LogikosDebug|Any CPU.ActiveCfg = LogikosDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.LogikosDebug|Any CPU.Build.0 = LogikosDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.LogikosRelease|Any CPU.ActiveCfg = LogikosRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.LogikosRelease|Any CPU.Build.0 = LogikosRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ProtechsDebug|Any CPU.ActiveCfg = ProtechsDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ProtechsDebug|Any CPU.Build.0 = ProtechsDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ProtechsRelease|Any CPU.ActiveCfg = ProtechsRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.ProtechsRelease|Any CPU.Build.0 = ProtechsRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.WaterOutDebug|Any CPU.ActiveCfg = WaterOutDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.WaterOutDebug|Any CPU.Build.0 = WaterOutDebug|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.WaterOutRelease|Any CPU.ActiveCfg = WaterOutRelease|Any CPU
+		{E0393636-6988-4862-A3E7-B30423D64864}.WaterOutRelease|Any CPU.Build.0 = WaterOutRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
