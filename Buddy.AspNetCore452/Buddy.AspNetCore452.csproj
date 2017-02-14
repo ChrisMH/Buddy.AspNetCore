@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.Net.Compilers.2.0.0-rc2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.0.0-rc2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.0.0-rc4\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.0.0-rc4\build\Microsoft.Net.Compilers.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -218,52 +218,52 @@
       <HintPath>..\packages\Microsoft.AspNetCore.Localization.1.1.0\lib\net451\Microsoft.AspNetCore.Localization.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Abstractions.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Abstractions.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.ApiExplorer, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.ApiExplorer.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ApiExplorer">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.ApiExplorer.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Core.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Core.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Cors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Cors.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Cors.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Cors">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Cors.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Cors.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.DataAnnotations, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.DataAnnotations.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.DataAnnotations.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.DataAnnotations">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.DataAnnotations.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.DataAnnotations.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Formatters.Json, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Formatters.Json.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Formatters.Json">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Formatters.Json.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Localization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Localization.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Localization.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Localization">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Localization.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Localization.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Razor, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Razor.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Razor.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Razor">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Razor.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.Razor.Host, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Razor.Host.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.Razor.Host.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Razor.Host">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Razor.Host.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.Razor.Host.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.TagHelpers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.TagHelpers.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.TagHelpers.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.TagHelpers">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.TagHelpers.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.TagHelpers.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.ViewFeatures.1.1.0\lib\net451\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.ViewFeatures.1.1.1\lib\net451\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Razor, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
@@ -499,7 +499,7 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.0.0-rc2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.0.0-rc2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.0.0-rc4\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.0.0-rc4\build\Microsoft.Net.Compilers.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
