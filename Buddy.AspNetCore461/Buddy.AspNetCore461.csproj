@@ -150,8 +150,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Buddy, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Buddy.1.7.0\lib\net461\Buddy.dll</HintPath>
+    <Reference Include="Buddy, Version=1.9.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Buddy.1.9.2\lib\net461\Buddy.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Antiforgery, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
@@ -459,6 +459,10 @@
     </Reference>
     <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
